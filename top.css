@@ -1,0 +1,447 @@
+.margin_bottom{
+  margin-bottom: 50px;
+}
+
+.margin_bottom_small{
+    margin-bottom: 30px;
+}
+
+.margin_top{
+    margin-top: 50px;
+}
+
+.normal_flex{
+    display: flex;
+}
+
+#top_section{
+    height: 40%;
+    width: 100%;
+}
+
+#top_image{
+    background: transparent url('./image/desktop-2325627_1920_e.jpg');
+    background-size:  cover;
+    /* background-size: 100% 240px; */
+    background-repeat:no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+#top_logo{
+    background-image: url('./image/T2_logo.png');
+    background-repeat:no-repeat;
+    background-size:  cover;
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.menu{
+  width: 150px;
+  height: 150px;
+  background-color: red;
+}
+
+.top_title{
+    text-align: center;
+    margin: 0 auto;
+    font: normal normal bold 16px/27px Tsukushi A Round Gothic;
+    font-size: 40px;
+}
+
+#second_section{
+    background: #F4F4F4;
+    width: 100%;
+    height: 1100px;
+    text-align: center;
+}
+
+.second_logo{
+    background-image: url('./image/tiara.svg');
+    width: 100px;
+    height:100px;
+    margin:0 auto;
+}
+
+.second_h2{
+    font: normal normal bold 16px/16px Copperplate;
+    font-size: 50px;
+    letter-spacing: 9px;
+    margin: 30px 0;
+} 
+
+.second_under{
+    border: 1px solid #555555;
+    width: 40%;
+    margin:0 auto;
+    margin-bottom: 30px;
+}
+
+.second_p{
+    font: normal normal bold 14px/19px Tsukushi A Round Gothic;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+
+.second_pink {
+    color: #D00040;
+}
+
+.second_discription{
+    font: normal normal normal 11px/18px Tsukushi A Round Gothic;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.second_t2{
+    font: normal normal bold 15px/18px Copperplate;
+    font-size: 40px;
+}
+
+.second_button{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 2px #00000029;
+    border-radius: 8px;
+    width:70%;
+    margin:0 auto;
+    font-size: 30px;
+}
+
+.third_section{
+    width: 100%;
+    height:1600px;
+    background: #DDDDDD 0% 0% no-repeat padding-box;
+    text-align: center;
+}
+
+.third_image_container{
+    width:90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+.third_image_block_container{
+    width: 45%;
+    height: 400px;
+    border-radius: 10%;
+}
+
+.third_image_block_upper{
+    width: 100%;
+    height: 60%;
+    border-radius: 10% 10% 0 0;
+}
+
+.third_image_block_under{
+    background: #FFFFFF;
+    border-radius: 0px 0px 10% 10%;
+    width: 100%;
+    height: 40%;
+}
+
+.third_image_block_under_section{
+    width:80%;
+    margin:0 auto;
+}
+
+.third_image_block_under_imamge{
+  width:20%;
+  height:60px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.third_image_block_under_h3{
+    font: normal normal bold 13px/23px Tsukushi A Round Gothic;
+    letter-spacing: 0.26px;
+    height: 60px;
+    line-height:60px;
+    font-size: 1.7rem;
+    margin-bottom: 5px;
+    margin-top:10px;
+}
+
+.third_image_block_under_description{
+    font: normal normal normal 10px/15px Tsukushi A Round Gothic;
+letter-spacing: 0px;
+color: #000000;
+font-size: 1.5rem;
+line-height: 40px;
+text-align: left;
+}
+
+.tmp_font_size{
+    font-size: 1.4rem;
+}
+
+/* ここからロゴのイメージの画像 */
+
+.third_image_block_under_imamge_first{
+    background-image: url('./image/brochure.svg');
+    background-size:  contain;
+    background-repeat:no-repeat;
+  }
+
+  .third_image_block_under_imamge_second{
+    background-image: url('./image/video-player.svg');
+    background-size:  contain;
+    background-repeat:no-repeat;
+  }
+  .third_image_block_under_imamge_third{
+    background-image: url('./image/disc.svg');
+    background-size:  contain;
+    background-repeat:no-repeat;
+  }
+  
+  .third_image_block_under_imamge_forth{
+    background-image: url('./image/email.svg');
+    background-size:  contain;
+    background-repeat:no-repeat;
+  }
+  
+  .third_image_block_under_imamge_fifth{
+    background-image: url('./image/image-editor.svg');
+    background-size:  contain;
+    background-repeat:no-repeat;
+  }  
+
+  .third_image_block_under_imamge_six{
+    background-image: url('./image/3d-model.svg');
+    background-size:  contain;
+    background-repeat:no-repeat;
+  }
+/* ここから大きいイメージの画像のcss */
+.first_image_block{
+    background: transparent url('./image/plans-1867745_1920.jpg');
+    background-size:  cover;
+    background-repeat:no-repeat;
+}
+
+.second_image_block{
+    background: transparent url('./image/movie_image.png');
+    background-size:  cover;
+    background-repeat:no-repeat;
+}
+
+.third_image_block{
+    background: transparent url('./image/headphones-5433956_1920.jpg');
+    background-size:  cover;
+    background-repeat:no-repeat;
+}
+
+.forth_image_block{
+    background: transparent url('./image/email-4284157.png');
+    background-size:  cover;
+    background-repeat:no-repeat;
+}
+
+.fifth_image_block{
+    background: transparent url('./image/dot.png');
+    background-size:  cover;
+    background-repeat:no-repeat;
+}
+
+.six_image_block{
+    background: transparent url('./image/swatches-1183934_1920.png');
+    background-size:  cover;
+    background-repeat:no-repeat;
+}
+/* ここまで */
+
+/* ここからforthSection */
+
+.forth_section{
+    background: #C3C3C3;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.forth_h2{
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin: 20px 0;
+    font: normal normal bold 35px/16px Tsukushi A Round Gothic;
+}
+
+.forth_under{
+    border: 1px solid #555555;
+    width: 30%;
+    margin:0 auto;
+}
+
+.forth_description{
+    font: normal normal bold 25px/16px Tsukushi A Round Gothic;
+    height:150px;
+    line-height: 150px;
+}
+
+.forth_contents{
+    width: 95%;
+    margin:0 auto;
+}
+
+.forth_contents_upper{
+    width:100%;
+    margin:0 auto;
+    background: #FFFFFF;
+    height:250px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+}
+
+.forth_left_continer{
+    width: 20%;
+    height: 100%;
+    border-right: 2px solid #555555;
+}
+
+.forth_left_container_image{
+    background-image: url('./image/work.svg');
+    background-size:  contain;
+    background-repeat:no-repeat;
+    width:90%;
+    height:50%;
+    margin-top: 60px;
+}
+
+.forth_right_container{
+    width:70%;
+    height: 100%;
+}
+
+.forth_right_container_h3{
+    font: normal normal bold 38px/21px Tsukushi A Round Gothic;
+    margin: 40px 0;
+}
+
+.forth_right_container_description{
+    font: normal normal normal 22px/13px Tsukushi A Round Gothic;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+.forth_contents_under{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.triangle{
+    width: 0;
+height: 0;
+border-style: solid;
+border-width: 50px 30px 0 30px;
+border-color: #00070f transparent transparent transparent;
+margin:10px 0;
+}
+
+.fifth_section{
+    background: #555555;
+    width:100%;
+    padding:50px 0;
+}
+
+.fifth_section_container{
+    width: 80%;
+    margin:0 auto;
+}
+
+.fifth_section_container_upper{
+    display: flex;
+    background: #FFFFFF;
+    border-radius: 12px;
+    text-align: center;
+    width: 70%;
+    height: 80px;
+    margin:0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.fifth_section_container_upper_word{
+    font: normal normal bold 32px/21px Tsukushi A Round Gothic;
+}
+
+.fifth_section_container_upper_image{
+    background-image: url('./image/paper-plane.svg');
+    background-size:  contain;
+    background-repeat:no-repeat;
+    width:20%;
+    height:70%;
+}
+
+.fifth_a{
+   color : inherit;
+   text-decoration : none;
+   cursor:default;
+}
+
+.fifth_section_container_middle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    height: 80px;
+}
+
+.fifth_t2{
+  background-image: url('./image/T2_logo_black.png');
+  width: 20%;
+  height: 100%;
+  background-size:  contain;
+  background-repeat:no-repeat;
+  background-position: center;
+}
+
+.fifth_word{
+    font: normal normal bold 18px/17px Tsukushi A Round Gothic;
+    color: #FFFFFF;
+}
+
+.fifth_insta{
+    background-image: url('./image/instagram.svg');
+    width: 20%;
+  height: 100%;
+  background-size:  contain;
+  background-repeat:no-repeat;
+  background-position: center;
+}
+
+.fifth_fb{
+    background-image: url('./image/facebook-circular-logo.svg');
+    width: 20%;
+  height: 100%;
+  background-size:  contain;
+  background-repeat:no-repeat;
+  background-position: center;
+}
+
+.fifth_section_container_footer{
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.c{
+    font: normal normal bold 20px/9px Tsukushi A Round Gothic;
+
+}
+
+.fifth_logo{
+    font: normal normal bold 25px/9px Copperplate;
+}
+
+.fifth_last{
+    font: normal normal bold 15px/9px Copperplate;
+}
+
+
