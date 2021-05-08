@@ -178,7 +178,7 @@ header{
 }
 
 .image_second{
-    background-image: url('./image/work.svg');
+    background-image: url('./image/nutcracker.svg');
     background-size:  contain;
     background-repeat:no-repeat;
 }
@@ -246,6 +246,12 @@ header{
 /* ここからロゴのイメージの画像 */
 
   .first_image_block{
+    background: transparent url('./image/plans-1867745_1920.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+.second_image_block{
     background: transparent url('./image/plans-1867745_1920.jpg');
     background-size: cover;
     background-repeat:no-repeat;
