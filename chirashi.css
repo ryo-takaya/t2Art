@@ -210,16 +210,67 @@ header{
 
 /* ここからロゴのイメージの画像 */
 
-  .first_image_block{
-    background: transparent url('./image/plans-1867745_1920.jpg');
+  .third_first_image_block{
+    background: transparent url('./image/chirashi/t2_chirashi_sample7.jpg');
     background-size: cover;
     background-repeat:no-repeat;
+    background-position:center;
 }
 
-.second_image_block{
-    background: transparent url('./image/plans-1867745_1920.jpg');
+.third_second_image_block{
+    background: transparent url('./image/chirashi/S__40173570.jpg');
     background-size: cover;
     background-repeat:no-repeat;
+    background-position:center;
+}
+
+.third_third_image_block{
+    background: transparent url('./image/chirashi/sample_chirashi1.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.third_forth_image_block{
+    background: transparent url('./image/chirashi/t2_chirashi_sample6e.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.third_five_image_block{
+    background: transparent url('./image/chirashi/t2_chirashi_sample4.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.third_six_image_block{
+    background: transparent url('./image/chirashi/t2_chirashi_sample5.png');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.third_seven_image_block{
+    background: transparent url('./image/chirashi/t2_chirashi_sample5e.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.third_eight_image_block{
+    background: transparent url('./image/chirashi/S__40173577.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.third_nine_image_block{
+    background: transparent url('./image/chirashi/t2_chirashi_sample2.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
 }
 
 /* ここまで */
@@ -298,12 +349,16 @@ letter-spacing: 1.2px;
 line-height: 20px;
 }
 
-
-
 .red{
-    color: #FF0000;
+    color: red;
 }
 
+.test{
+    font: normal normal normal 7px/12px Tsukushi A Round Gothic;
+    width: 80%;
+    margin: JIS04;
+    margin: 20 auto;
+}
 ul.asterisk li {
     list-style-type: none;
     text-indent: -2em;
