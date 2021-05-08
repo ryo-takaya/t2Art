@@ -2,6 +2,14 @@
     padding-bottom: 15px;
 }
 
+.padding_bottom_30{
+    padding-bottom: 30px;
+}
+
+.padding_bottom_50{
+    padding-bottom: 50px;
+}
+
 .triangle{
     width: 0;
 height: 0;
@@ -13,6 +21,14 @@ margin:10px 0;
 
 .margin_bottom_small{
     margin-bottom: 30px;
+}
+
+.margin_bottom_60{
+    margin-bottom:60px;
+}
+
+.margin_right_10{
+    margin-right: 10px;
 }
 
 .margin_top{
@@ -36,8 +52,7 @@ margin:10px 0;
 }
 
 .tiara_h2{
-    font: normal normal bold 14px/16px Copperplate;
-    font-size: 30px;
+    font: normal normal bold 12px/16px Copperplate;
     letter-spacing: 9px;
     margin: 25px 0;
 } 
@@ -89,7 +104,7 @@ header{
     text-align: center;
 }
 
-.mitsumori_section{
+.header_section{
     display: flex;
     background: #FFFFFF;
     border-radius: 12px;
@@ -101,11 +116,11 @@ header{
     box-shadow: 0px 2px 10px #00000029;
 }
 
-.mitsumori_section_word{
+.header_section_word{
     font: normal normal bold 32px/21px Tsukushi A Round Gothic;
 }
 
-.mitsumori_section_image{
+.header_section_image{
     background-image: url('./image/paper-plane.svg');
     background-size:  contain;
     background-repeat:no-repeat;
@@ -114,7 +129,7 @@ header{
     height:70%;
 }
 
-.mitsumori_section_a{
+.header_section_a{
    color : inherit;
    text-decoration : none;
    cursor:default;
@@ -122,7 +137,7 @@ header{
 
 
 
-.forth_contents_tmp{
+.contents_description_container{
     width: 95%;
     margin:0 auto;
     box-shadow: 8px 8px 8px #00000029;
@@ -131,26 +146,26 @@ header{
     margin-top:30px;
 }
 
-.forth_contents_upper{
+.contents_description_container_upper{
     width:100%;
     margin:0 auto;
     height:250px;
     
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
   align-items: center;
 }
 
-.forth_left_continer{
+.contents_description_container_upper_left{
     width: 20%;
     height: 100%;
-    border-right: 2px solid #555555;
 }
 
-.forth_left_container_image{
+.contents_description_container_upper_left_image{
     background-image: url('./image/work.svg');
     background-size:  contain;
     background-repeat:no-repeat;
+    background-position: right;
     width:90%;
     height:50%;
     margin-top: 60px;
@@ -174,32 +189,29 @@ header{
     background-repeat:no-repeat;
 }
 
-.forth_right_container{
+.contents_description_container_upper_middle_border{
+    display: inline-block;
+    border-right: 6px solid #555555;
+    height: 130px;
+}
+
+.contents_description_container_upper__right{
     width:70%;
     height: 100%;
 }
 
-.forth_right_container_h3{
+.contents_description_container_upper__right_h3{
     text-align: left;
-    font: normal normal bold 32px/21px Tsukushi A Round Gothic;
+    font: normal normal bold 30px/21px Tsukushi A Round Gothic;
     padding-left:20px;
     margin: 40px 0;
 }
 
-.forth_right_container_h3_last{
-    font: normal normal bold 30px/21px Tsukushi A Round Gothic;
-}
-
-.forth_right_container_description_tmp{
+.contents_description_container_upper__right_term{
     font: normal normal normal 26px/13px Tsukushi A Round Gothic;
     letter-spacing: 2px;
     line-height: 30px;
-}
-
-.forth_contents_under{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    padding-right:20px;
 }
 
 /* ここまでfirstSection */
@@ -213,7 +225,7 @@ header{
 
 .third_image_container{
     width:90%;
-    margin: 0 auto;
+    margin: 0 auto 50px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
@@ -273,13 +285,19 @@ header{
 }
 
 .kanban_under_title{
-    font: normal normal bold 32px/16px Tsukushi A Round Gothic;
-    padding:30px;
+    font: normal normal bold 28px/16px Tsukushi A Round Gothic;
+    padding:30px 0px;
+    text-align: left;
+    width:80%;
+    margin:0 auto;
 }
 
 .kanban_under_content{
     font: normal normal bold 22px/16px Tsukushi A Round Gothic;
     line-height: 40px;
+    width:80%;
+    text-align:left;
+    margin-left:70px;
 }
 
 .kanban_under_list{
@@ -374,7 +392,6 @@ ul.asterisk li:before {
 .forth_left_continer{
     width: 20%;
     height: 100%;
-    border-right: 2px solid #555555;
 }
 
 .forth_left_container_image{
@@ -394,6 +411,7 @@ ul.asterisk li:before {
 .forth_right_container_h3{
     font: normal normal bold 38px/21px Tsukushi A Round Gothic;
     margin: 40px 0;
+    padding-right: 80px;
 }
 
 .forth_right_container_description{
@@ -406,6 +424,7 @@ ul.asterisk li:before {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 100px;
 }
 
 /* ここからfifith */
