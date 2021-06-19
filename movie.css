@@ -1,0 +1,376 @@
+.padding_bottom{
+    padding-bottom: 15px;
+}
+
+.padding_bottom_30{
+    padding-bottom: 30px;
+}
+
+.padding_bottom_50{
+    padding-bottom: 50px;
+}
+
+.margin_bottom_small{
+    margin-bottom: 30px;
+}
+
+.margin_bottom_60{
+    margin-bottom:60px;
+}
+
+.margin_right_10{
+    margin-right: 10px;
+}
+
+.margin_top{
+    margin-top: 50px;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex_option1{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list_num{
+    display: inline-block;
+    background: #F7B31E;
+    border-radius: 6px;
+    font: normal normal normal 15px/24px Baloo;
+    font-size:40px;
+    letter-spacing: 2.1px;
+    color: #000000;
+    padding:16px 14px 12px 14px;
+    margin:0 10px;
+}
+
+header{
+    background: #FFFFFFCB;
+    width:100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hamburger_menu{
+    width: 150px;
+  height: 150px;
+  background-color: red;
+}
+
+.chirashi_first_section{
+    background: #F4F4F4;
+    width:100%;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.header_section{
+    display: flex;
+    background: #FFFFFF;
+    border-radius: 12px;
+    text-align: center;
+    width: 50%;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 2px 10px #00000029;
+}
+
+.header_section_word{
+    font: normal normal bold 32px/21px Tsukushi A Round Gothic;
+}
+
+.header_section_image{
+    background-image: url('./image/paper-plane.svg');
+    background-size:  contain;
+    background-repeat:no-repeat;
+    background-position: center;
+    width:20%;
+    height:70%;
+}
+
+.header_section_a{
+   color : inherit;
+   text-decoration : none;
+   cursor:default;
+}
+
+
+
+.contents_description_container{
+    width: 95%;
+    margin:0 auto;
+    box-shadow: 8px 8px 8px #00000029;
+    border-radius: 20px;
+    background: #FFFFFF;
+    margin-top:30px;
+}
+
+.contents_description_container_upper{
+    width:100%;
+    margin:0 auto;
+    height:250px;
+    
+    display: flex;
+    justify-content: space-around;
+  align-items: center;
+}
+
+.contents_description_container_upper_left{
+    width: 20%;
+    height: 100%;
+}
+
+.contents_description_container_upper_left_image{
+    background-image: url('./image/work.svg');
+    background-size:  contain;
+    background-repeat:no-repeat;
+    background-position: right;
+    width:90%;
+    height:50%;
+    margin-top: 60px;
+}
+
+.image_first{
+    background-image: url('./image/pumpkin-carriage.svg');
+    background-size:  contain;
+    background-repeat:no-repeat;
+}
+
+.image_second{
+    background-image: url('./image/nutcracker.svg');
+    background-size:  contain;
+    background-repeat:no-repeat;
+}
+
+.image_third{
+    background-image: url('./image/work.svg');
+    background-size:  contain;
+    background-repeat:no-repeat;
+}
+
+.contents_description_container_upper_middle_border{
+    display: inline-block;
+    border-right: 6px solid #555555;
+    height: 130px;
+}
+
+.contents_description_container_upper__right{
+    width:70%;
+    height: 100%;
+}
+
+.contents_description_container_upper__right_h3{
+    text-align: left;
+    font: normal normal bold 30px/21px Tsukushi A Round Gothic;
+    padding-left:20px;
+    margin: 20px 0;
+}
+
+.contents_description_container_upper__right_term{
+    font: normal normal normal 26px/13px Tsukushi A Round Gothic;
+    letter-spacing: 2px;
+    line-height: 30px;
+    padding-right:20px;
+}
+
+/* ここまでfirstSection */
+
+.chirashi_second_section{
+    background: #DDDDDD;
+    width:100%;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.third_image_container{
+    width:90%;
+    margin: 0 auto 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+.third_image_block_container{
+    width: 30%;
+    height: 280px;
+    border-radius: 10%;
+}
+
+.third_image_block_under_section{
+    width:80%;
+    margin:0 auto;
+}
+
+
+/* ここからロゴのイメージの画像 */
+
+  .third_first_image_block{
+    background: transparent url('./image/movie/t2_douga_thum4.png');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.third_second_image_block{
+    background: transparent url('./image/movie/t2_douga_thum.png');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.third_third_image_block{
+    background: transparent url('./image/movie/t2_douga_sample10.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.third_forth_image_block{
+    background: transparent url('./image/movie/t2_douga_sample3e.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.third_five_image_block{
+    background: transparent url('./image/movie/t2_douga_thum9.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.third_six_image_block{
+    background: transparent url('./image/movie/t2_douga_thum2.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.third_seven_image_block{
+    background: transparent url('./image/movie/t2_douga_thum5.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.third_eight_image_block{
+    background: transparent url('./image/movie/t2_yamato_knight.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.third_nine_image_block{
+    background: transparent url('./image/movie/t2_douga_sample4.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+/* ここまで */
+
+.chirashi_second_section_kanban{
+    width: 90%;
+    margin:0 auto 45px auto;
+    box-shadow: 4px 8px 8px #00000029;
+    border-radius: 30px;
+}
+
+.kanban_upper{
+    background: #555555;
+    font: normal normal bold 40px/19px Tsukushi A Round Gothic;
+    color: #FFFFFF;
+    width:100%;
+    padding:20px 0;
+    border-radius:30px 30px 0 0;
+}
+
+.kanban_under{
+    width:100%;
+    background-color:#FFFFFF;
+    height: 300px;
+    border-radius:0 0 30px 30px;
+}
+
+.kanban_under_block{
+    width:50%;
+}
+
+.kanban_under_block_section{
+    width:100%;
+}
+
+.kanban_under_title{
+    font: normal normal bold 28px/16px Tsukushi A Round Gothic;
+    padding:30px 0px;
+    text-align: left;
+    width:80%;
+    margin:0 auto;
+}
+
+.kanban_under_content{
+    font: normal normal bold 22px/16px Tsukushi A Round Gothic;
+    line-height: 40px;
+    width:80%;
+    text-align:left;
+    margin-left:70px;
+}
+
+.kanban_under_list{
+    font: normal normal bold 28px/16px Tsukushi A Round Gothic;
+    padding:30px;
+}
+
+.chirashi_second_section_term{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.chirashi_second_section_word_red{
+    text-align: left;
+    font-family: Tsukushi A Round Gothic ;
+    font-weight: bold;
+    font-size: 12px;
+letter-spacing: 2px;
+line-height: 20px;
+}
+
+.chirashi_second_section_word_black{
+    text-align: left;
+    font-family:  Tsukushi A Round Gothic;
+    font-size: 12px;
+letter-spacing: 1.2px;
+line-height: 20px;
+}
+
+.red{
+    color: red;
+}
+
+.test{
+    font: normal normal normal 7px/12px Tsukushi A Round Gothic;
+    width: 80%;
+    margin: JIS04;
+    margin: 20 auto;
+}
+ul.asterisk li {
+    list-style-type: none;
+    text-indent: -2em;
+    margin-bottom: 20px;
+    padding:0 30px;
+  }
+ul.asterisk li:before {
+    display: inline;
+    content: "※";
+    color: black;
+  }
+
+
+
+

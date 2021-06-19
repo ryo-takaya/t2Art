@@ -1,0 +1,259 @@
+.text-align{
+    text-align: center;
+}
+
+.back-color-grey{
+   background-color: #DDDDDD ; 
+}
+.back-color-white-grey{
+    background-color: #F4F4F4;
+}
+
+.flex{
+    display: flex;
+}
+
+.margin-20{
+    margin:20px;
+}
+
+.margin-left30{
+    margin-left: 30px;
+}
+
+.margin-left40{
+    margin-left: 40px;
+}
+
+.margin-left50{
+    margin-left: 50px;
+}
+
+.margin-left80{
+    margin-left: 80px;
+}
+
+.padding-right20{
+    padding-right: 20px;
+}
+
+.padding-top20{
+    padding-top: 20px;
+}
+
+.padding-top60{
+    padding-top:60px;
+}
+
+.font{
+   font-family: Tsukushi A Round Gothic;
+   font-weight:bold;
+}
+
+.margin{
+    margin: 20px auto;
+}
+
+.profile-first-section{
+    width: 100%;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.profile-description-container{
+    position: relative;
+    height: 1300px;
+}
+
+.profile-image-container{
+    display: block;
+    box-shadow: 1px 2px 3px #00000053;
+    border-radius: 16px;
+    height: 500px;
+    width:200px;
+    object-fit: cover;
+    position: absolute;
+    top: 20;
+    left: 100;
+    z-index: 10;
+}
+
+.profile-description-container-small{
+    position: absolute;
+    background-color: #FFFFFF;
+    box-shadow: 1px 2px 3px #00000053;
+    border-radius: 8px;
+    width: 70%;
+    top: 40px;
+    left: 240px;
+}
+
+.profile-description-container-small-name{
+    display:flex;
+    margin-left: 60px;
+    
+}
+
+.name-full{
+    font-size: 40px;
+    
+    
+}
+
+.name-daihyou{
+    font-size:30px;
+    padding-top:8px;
+}
+
+.image-margin{
+  margin-left: 150px;
+}
+
+.name-block-image{
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    padding:10px;
+}
+
+.name-image-insta{
+    height: 40px;
+}
+
+.name-image-web{
+    height: 50px;
+}
+
+.profile-first-description{
+    text-align: left;
+    font-weight: bold;
+    font-family:  Tsukushi A Round Gothic;
+    font-size: 22px;
+    line-height: 38px;
+    
+    padding: 26px 46px 40px 90px;
+}
+
+.profile-description-under-line{
+  border: solid;
+  border-width: 1px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.second-description-logo{
+  height: 50px;
+  width: 50px;
+  position: relative;
+}
+
+.description-logo-container-box{
+height: 20px;
+  width:20px;
+  border: solid;
+  position: absolute;
+}
+
+.middle-box{
+    height: 13px;
+    width: 13px;
+    background: black;
+    position: absolute;
+    top: 10;
+    left: 10;
+}
+
+.description-logo-container-box-under{
+  top:10;
+  left: 10;
+}
+
+.second-description-section{
+    font-size:20px;
+}
+
+.second-description-content{
+    text-align: left;
+    font-size:20px;
+}
+
+.first-list{
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.img1{
+  background-image: url('./image/profile/IMG_4992.png');
+  background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.img2{
+    background-image: url('./image/profile/t2_chirashi_sample10.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.img3{
+    background-image: url('./image/profile/t2_chirashi_sample10.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.list-box{
+    height: 260px;
+    width:260px;
+    border-radius: 30px;
+    box-shadow: 1px 2px 6px #00000053;
+}
+
+.to-contents{
+    font-size:30px;
+    margin:90px auto 0 auto;
+    width: 600px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 6px #00000029;
+    border-radius: 30px;
+    letter-spacing: 3;
+    padding: 14px;
+}
+
+.to-contents-a{
+    text-decoration : none;
+    color : inherit;
+}
+
+
+.profile-image-container-anzai{
+    display: block;
+    box-shadow: 1px 2px 3px #00000053;
+    border-radius: 16px;
+    height: 500px;
+    width:200px;
+    object-fit: cover;
+    position: absolute;
+    top: 20;
+    left: 100;
+    z-index: 10;
+    object-position: 60% 20%;
+}
+
+
+.anzai-profile-name{
+    width: 200px;
+    margin-left: 40px;
+}
+
+.name-daihyou-anzai{
+    width: 140px;
+    font-size:30px;
+    padding-top:8px;
+}
+
+.small-name-left{
+  width:80px;
+}
+
